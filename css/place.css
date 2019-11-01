@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container h2
+{
+	text-align: center;
+	color: #202020;
+	font-size: 60px;
+	margin-bottom: 150px;
+}
+.container .cards
+{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 60px;
+}
+.cards .card
+{
+	display: flex;
+	background-color: white;
+	height: 360px;
+	margin: 50px 0;
+	border-radius: 25px;
+}
+.cards .card img
+{
+	width: 480px;
+	height: 360px; 
+	border-radius: 15px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+}
+.cards .card .text h3
+{
+	text-align: center;
+	font-size: 34px;
+}
+.cards .card .text p
+{
+	padding: 10px 80px;
+	font-size: 24px;
+	color: #202020;
+	font-weight: 400;
+}

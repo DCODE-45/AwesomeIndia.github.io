@@ -1,0 +1,690 @@
+body,*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body,html
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+header
+{
+	width: 100%;
+	background-image: url(../img/mountainss.jpg);
+	height: 700px;
+}
+nav
+{
+	width: 100%;
+	height: 60px;
+}
+nav .logo
+{
+	width: 50%;
+	float: left;
+	line-height: 60px;
+}
+nav .logo h3
+{
+	padding-left: 80px;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+nav .menu
+{
+	width: 50%;
+	float: right;
+	line-height: 60px;
+}
+nav .menu ul
+{
+	list-style: none;
+	display: flex;
+}
+nav a
+{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	transition-duration: .8s;
+}
+nav a:hover
+{
+	background-color: rgba(40,35,35,1.00);
+	color: whitesmoke;
+	border-radius: 10px;
+}
+header section
+{
+	height: 640px;
+	text-align: center;
+	color: white;
+}
+section .tag
+{
+	margin: 200px 0 60px;
+}
+.tag h2
+{
+	font-size: 60px;
+}
+.tag h4
+{
+	font-size: 30px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.header-section a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	border-radius: 15px;
+	padding: 5px 40px;
+	margin: 20px 0;
+	background: #202020;
+	transition: .5s;
+}
+.header-section a:hover
+{
+	background-color: transparent;
+	border: 1.5px solid #202020;
+	color: #202020;
+}
+.details
+{
+	background-color:#202020;
+	text-align: center;
+	color: white;
+}
+.tagLine
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 60px 0 10px;
+}
+.line
+{
+	width: 300px;
+	height: 3px;
+	background-color: white;
+	margin: 0 auto 40px;
+}
+.line .thick
+{
+	width: 100px;
+	height: 10px;
+	background-color: white;
+	margin: 0 auto;
+}
+.details p
+{
+	padding: 0 100px 20px;
+	text-align: left;
+	font-size: 26px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.popular
+{
+	text-align: center;
+}
+.pline
+{
+	width: 600px;
+	height: 3px;
+	background-color: rgba(40,35,35,1.00);
+	margin: 0 auto 40px;
+}
+.pline .pthick
+{
+	width: 200px;
+	height: 10px;
+	background-color: rgba(40,35,35,1.00);
+	margin: 0 auto;
+}
+.popular p
+{
+	padding: 0 70px;
+	text-align: left;
+	font-size: 26px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.popular .slide-container
+{
+	width: 100%;
+	height: 900px;
+	background-color: rgba(222,222,222,.2);
+}
+.popular .imgs
+{
+	width: 80%;
+	height: 800px;
+	margin: 40px auto;
+	animation: slider 21s infinite;
+	animation-timing-function: linear;
+}
+@keyframes slider
+{
+	0%,100%
+	{
+		background-image: url(../img/Flag.jpg);
+	}
+	16.5%
+	{
+		background-image: url(../img/Taj.jpg);
+	}
+	33%
+	{
+		background-image:url(../img/Beach.jpg);
+	}
+	49.5%
+	{
+		background-image: url(../img/Ganesh.jpg)
+	}
+	67%
+	{
+		background-image: url(../img/Gateway.jpg);
+	}
+	83.5%
+	{
+		background-image: url(../img/WildLife.jpg);
+	}
+}
+.popular a
+{
+	padding: 10px 25px;
+	text-decoration: none;
+	border-radius: 10px;
+	color: rgba(40,35,35,1.00);
+	border: 1px solid rgba(40,35,35,1.00);
+	font-weight: 600;
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	transition: .8s;
+	background-color: white;
+}
+.popular a:hover
+{
+	color: white;
+	background-color: rgba(40,35,35,1.00);
+	border-color: white;
+}
+.visit
+{
+	text-align: center;	
+	color: #202020;
+}
+.visit .pline
+{
+	background-color: #202020;
+}
+.visit .pthick
+{
+	background-color: #202020;
+}
+.visit .card-container
+{
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.visit .card
+{
+	margin: 10px auto 0;	
+	width: 270px;
+	transition: 1s;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.visit .card img
+{
+	display: block;
+	margin: 0 auto;
+	width: 266px;
+	height: 180px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+}
+.visit .card h3
+{
+	text-align: center;
+	margin: 5px;
+	font-size: 1.5em;
+}
+.card:hover .sub-card
+{
+	display: contents;
+}
+.visit .card p
+{
+	text-align: center;
+	padding: 10px 25px;
+	font-size: 1.1em;
+}
+.visit a
+{
+	display: inline-block;
+	padding: 10px 25px;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 1px solid #202020;
+	font-weight: 600;
+	font-size: 20px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	transition: .8s;
+	color: #202020;
+	background-color: white;
+}
+.visit a:hover
+{
+	background-color: #202020;
+	color: white;
+}
+.Experience .tagLine
+{
+	font-weight: bold;
+}
+.Experience .pline
+{
+	width: 750px;
+}
+.Experience .pthick
+{
+	width: 250px;
+}
+.Experience .box
+{
+	margin: 20px 140px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.box .sbox,.box7
+{
+	margin: 10px auto;
+	width: 380px;
+	height: 270px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.6);
+}
+.box7
+{
+	display: block;
+}
+.sbox img
+{
+	width: 380px;
+	height: 270px;
+	transition: .8s;
+}
+.sbox .cover
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 380px;
+	height: 270px;
+	background-color: rgba(0,0,0,.7);
+	transition: 1s;
+	text-align: center;
+}
+.cover h2
+{
+	padding-top: 100px;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.sbox:hover .cover
+{
+	opacity: 0.2;
+}
+.sbox:hover img
+{
+	transform: scale(1.2);
+}
+footer
+{
+	width: 100%;
+	background-color: #202020;
+	text-align: center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: white;
+}
+footer .footer-content
+{
+	display: flex;
+}
+footer .left
+{
+	float: left;
+	width: 50%;
+}
+footer .tagLine
+{
+	padding-top: 10px;
+}
+footer .line
+{
+	width: 400px;
+}
+footer .thick
+{
+	width: 150px;
+}
+footer h2
+{
+	padding: 50px 0 10px;
+}
+footer input
+{
+	width: 35%;
+	height: 35px;
+	margin: 20px 30px 10px;
+	display: inline-block;
+	background-color: rgba(0,0,0,.2);
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+footer button
+{
+	display: block;
+	margin: 15px auto;
+	width: 140px;
+	height: 40px;
+	font-size: 25px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 10px;
+	color: white;
+	font-weight: 600;
+	transition: .8s;
+}
+footer button:hover
+{
+	color: #202020;
+	background-color: white;
+}
+footer textarea
+{
+	margin: 20px 30px 10px;
+	display: inline-block;
+	background-color: rgba(0,0,0,.2);
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	width: 65%;
+	height: 60px;
+}
+footer .right
+{
+	width: 50%;
+}
+.footer-content .right h4
+{
+	margin: 5px;
+	color: gray;
+}
+footer .social
+{
+	text-align: center;
+}
+footer .social h3
+{
+	margin-top: 20px;
+}
+footer img
+{
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+	transition: .5s;
+}
+footer img:hover
+{
+	transform: scale(1.2);
+}
+@media (max-width: 500px)
+{
+nav
+{
+	width: 100%;
+}
+nav .logo
+{
+	width: 100%;
+	background-color: #1b1b1b;
+}
+nav .logo h3
+{
+	padding-left: 0px;
+	font-size: 30px;
+	text-align: center;
+	color: whitesmoke;
+}
+nav .menu
+{
+	width: 100%;
+	background-color: #202020;
+}
+nav .menu ul
+{
+	display: block;
+}
+nav a
+{
+	padding: 0px;
+	text-align: center;
+	display: block;
+	color: whitesmoke;
+	font-size: 1em;
+}
+nav a:hover
+{
+	background-color: rgba(40,35,35,1.00);
+	border-radius: 0px;
+}
+section .tag
+{
+	margin: 200px 0 60px;
+}
+.tag h2
+{
+	font-size: 35px;
+	padding: 0 10px;
+	margin: 320px 0 30px;
+}
+.tag h4
+{
+	font-size: 25px;
+}
+.header-section a
+{
+	font-size: 25px;
+}
+.tagLine
+{
+	font-size: 28px;
+	padding: 20px 0 10px;
+}
+.details p
+{
+	padding: 0 20px 20px;
+	font-size: 16px;
+	text-align: center;
+}
+.popular
+{
+	font-size: 28px;
+}
+.pline
+{
+	width: 320px;
+}
+.pline .pthick
+{
+	width: 100px;
+}
+.popular p
+{
+	padding: 0 20px 20px;
+	font-size: 16px;
+	text-align: center;
+}
+.popular .slide-container
+{
+	height: 400px;
+}
+.popular .imgs
+{
+	height: 280px;
+	background-size: cover;
+}
+.visit .card-container
+{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.visit .card
+{	
+	width: 300px;
+}
+.visit .card h3
+{
+	font-size: 24px;
+}
+.visit .card p
+{
+	padding: 5px 10px;
+	font-size: 18px;
+}
+.visit a
+{
+	margin-bottom: 30px;
+}
+.Experience .tagLine
+{
+	padding: 5px;
+}
+.Experience .pline
+{
+	width: 300px;
+}
+.Experience .pthick
+{
+	width: 100px;
+}
+.Experience .box
+{
+	margin: 20px 0px;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+}
+.box .sbox,.box7
+{
+	margin: 10px auto;
+	width: 150px;
+	height: 110px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.6);
+}
+.box7
+{
+	display: block;
+}
+.sbox img
+{
+	width: 150px;
+	height: 110px;
+}
+.sbox .cover
+{
+	width: 150px;
+	height: 110px;
+}
+.cover h2
+{
+	padding-top: 45px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+footer .footer-content
+{
+	display: block;
+}
+footer .left
+{
+	width: 100%;
+}
+footer .tagLine
+{
+	padding-top: 10px;
+}
+footer .line
+{
+	width: 300px;
+}
+footer .thick
+{
+	width: 100px;
+}
+footer input
+{
+	width: 75%;
+	height: 30px;
+	margin: 10px 30px 10px;
+}
+footer button
+{
+	width: 100px;
+	font-size: 18px;
+}
+footer button:hover
+{
+	color: #202020;
+	background-color: white;
+}
+footer textarea
+{
+	margin: 10px 30px 10px;
+	font-size: 20px;
+	width: 75%;
+	height: 50px;
+}
+footer .right
+{
+	width: 100%;
+}
+.footer-content .right h4
+{
+	margin: 15px;
+}
+footer img
+{
+	width: 30px;
+	height: 30px;
+}
+}

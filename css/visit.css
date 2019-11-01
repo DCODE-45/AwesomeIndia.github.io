@@ -1,0 +1,70 @@
+body,*
+{
+	margin: 0;
+	padding: 0;
+}
+#image
+{
+	width: 90%;
+	height: 800px;
+	display: block;
+	margin: 10px auto;
+}
+#head-line
+{
+	font-size: 56px;
+	text-align: center;
+	margin: 20px 0;
+}
+.intro-part
+{
+	margin: 0 0 80px;
+}
+.intro-part p
+{
+	padding: 10px 80px;
+	font-size: 28px;
+	text-align: left;
+}
+.main
+{
+	margin: 0 40px;
+}
+.main h1
+{
+	font-size: 44px;
+	text-align: center;
+}
+.cards
+{
+	display: flex;
+}
+.main .card-place
+{
+	width: 40%;	
+	margin: 60px auto;
+	background-color: rgba(147,147,147,.1);
+	border-radius: 20px;
+}
+.card-place img
+{
+	display: block;
+	margin: 20px auto;
+	width: 360px;
+	height: 260px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+}
+.card-place h3
+{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 300;
+}
+.card-place p
+{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 500;
+	padding: 20px 40px;
+}
